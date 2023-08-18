@@ -11,8 +11,8 @@ def hello_hbnb():
 
 @app.route('/hbnb', strict_slashes=False)
 def hello_hbnb():
-    """Main Route"""
-    return "HBNB!"
+    """Route HBNB"""
+    return "HBNB"
 
 """Entry Point"""
 if __name__ == '__main__':
