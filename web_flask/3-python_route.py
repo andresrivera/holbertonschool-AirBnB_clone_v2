@@ -27,7 +27,7 @@ def c_route(text):
 @app.route('/python/<text>', strict_slashes=False)
 def python_route(text):
     """Route Python"""
-    #text_with_spaces = text.replace('_', ' ')
+    # text_with_spaces = text.replace('_', ' ')
     return "Python {}".format(text.replace('_', ' '))
 
 """Entry Point"""
